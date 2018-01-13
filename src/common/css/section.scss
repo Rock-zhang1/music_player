@@ -1,0 +1,15 @@
+.section{
+    height: 100%;
+    padding: 81px 0 70px 0;
+    .section_l{
+        width: 300px;
+        height: 100%;
+        float: left;
+        border-right: 1px solid #ccc;
+    }
+    .section_r{
+        float: right;
+        width: calc(100% - 300px);
+        height: 100%;
+    }
+}

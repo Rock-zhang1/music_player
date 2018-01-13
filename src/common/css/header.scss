@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    height: 80px;
+    padding: 5px 15px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    position: absolute;
+    top: 0;
+    display: flex;
+    line-height: 55px;
+    .logo{
+        width: 220px;
+        flex-shrink: 0;
+        img{
+            width: 60px;
+            height: 60px;
+            float: left;
+        }
+    }
+    .search{
+        margin-left: 120px;
+        input{
+            border-radius: 30px;
+            height: 30px;
+            width: 300px;
+            padding-left: 10px;
+            border: 1px solid #ddd;
+            outline: none;
+        }
+        i{
+            display: inline-block;
+            width: 21px;
+            height: 21px;
+            margin-left: -25px;
+            cursor: pointer;
+            position: absolute;
+            top: 6px;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.mList{
+    height: 100%;
+    padding: 5px;
+    -webkit-user-select: none;
+    h3{
+        line-height: 40px;
+    }
+    ul{
+        height: calc(100% - 40px);
+        overflow-y: auto;
+        .focus>a{
+            color: #1387F5;
+        }
+        li{
+            cursor: default;
+            padding: 0 5px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            line-height: 35px;
+            a{
+                display: inline-block;
+                color: #000000;
+                width: 180px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            span{
+                opacity: 0;
+                transition: .3s;
+                i{
+                    margin: 0 5px;
+                }
+            }
+            &:hover{
+                background: #f5f5f5;
+                span{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

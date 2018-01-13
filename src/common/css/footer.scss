@@ -1,0 +1,58 @@
+.footer{
+    width: 100%;
+    height: 70px;
+    padding: 5px 15px;
+    border-top: 1px solid #ddd;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    >img{
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+        border-radius: 6px;
+    }
+    .handle_l{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        i{
+            font-size: 35px;
+            margin: 0 5px;
+        }
+        i:nth-of-type(2){
+            font-size: 55px;
+        }
+    }
+    .musicProgress{
+        width: 100%;
+        padding-top: 5px;
+        p span{
+            float: right;
+        }
+        .progres{
+            margin-top: 10px;
+        }
+    }
+    .handle_r{
+        width: 200px;
+        text-align: right;
+        line-height: 60px;
+        i{
+            font-size: 20px;
+            margin: 0 10px;
+        }
+    }
+}
+.ant-popover-inner-content{
+    p{
+        display: flex;
+        align-items: center;
+        line-height: 15px;
+    }
+    i{
+        font-size: 20px;
+        margin-right: 5px;
+    }
+}
